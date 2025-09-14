@@ -1,0 +1,12 @@
+- hosts: erpnext_hosts
+  become: yes
+  roles:
+    - system
+    - db
+    - redis
+    - bench
+    - erpnext
+    - hrms
+    - nginx
+    - certbot
+    - docs

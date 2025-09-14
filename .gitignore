@@ -1,0 +1,9 @@
+*.log
+.env
+*.dump
+*.sql
+*.tar.gz
+*.rdb
+*.aof
+sites_private/
+sites_public/
